@@ -1,3 +1,8 @@
+
+
+#conf database
+/mongo
+
 # dependencies
 /node_modules
 /.pnp
