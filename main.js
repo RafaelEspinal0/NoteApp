@@ -1,4 +1,5 @@
 const express = require("express");
+require('dotenv').config();
 const body_parser = require("body-parser");
 const path = require("path");
 const pug = require("pug");
@@ -87,6 +88,7 @@ app.post("/updatepage", (req, res, next) => {
   return next();
 });
 
-app.listen((arg) => {
-  console.log("Server started.");
+app.listen(process.env.PORT || 3000,() => {
+  console.log(`Server started in port: ${process.env.PORT || 3000}`);
+  console.log(process.env.MONGO_URL)
 });
