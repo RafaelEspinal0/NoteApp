@@ -1,5 +1,7 @@
-# NodeJS - Note App
-Para correr localmente, se necesita la base de datos.
+# NodeJS - Note App 📝
+Para correr 🏃🏾‍♂️ localmente, se necesita la base de datos 💾.
+
+Correr el archivo `docker-compose.yaml` con el siguiente comando en la terminal:
 
 ```
 docker-compose up -d
@@ -7,10 +9,12 @@ docker-compose up -d
 
 * El -d, significa __detached__
 
-* Monngo URL local:
+
+MongoDB URL local:
 
 ```
 mongodb://localhost:27017/notasdb
 ```
 
-
+## Configurar las variables de entorno 🫡
+Renombrar el archivo `.env.template` a `.env`
