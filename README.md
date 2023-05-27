@@ -1,6 +1,17 @@
 # NodeJS - Note App 📝
-Para correr 🏃🏾‍♂️ localmente, se necesita la base de datos 💾.
 
+
+## Instalaciones requeridas :
+ - Docker
+ - MongoDB
+ - Node
+
+
+```
+Nota:
+
+Para correr 🏃🏾‍♂️ localmente, se necesita la base de datos 💾.
+```
 Correr el archivo `docker-compose.yaml` con el siguiente comando en la terminal:
 
 ```
